@@ -1,0 +1,24 @@
+{
+  "name": "buzzlabs-felipehorizonte-test",
+  "version": "1.0.0",
+  "description": "Repositório para o teste de aplicação.",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heron982/clojure-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heron982/clojure-test/issues"
+  },
+  "homepage": "https://github.com/heron982/clojure-test#readme",
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "shadow-cljs": "^2.19.1"
+  }
+}
