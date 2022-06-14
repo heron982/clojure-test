@@ -526,7 +526,7 @@ try{return cljs.core.apply.cljs$core$IFn$_invoke$arity$3(render,this$,args);
 }} else {
 return taoensso.timbre._log_BANG_.cljs$core$IFn$_invoke$arity$11(taoensso.timbre._STAR_config_STAR_,new cljs.core.Keyword(null,"fatal","fatal",1874419888),"com.fulcrologic.fulcro.components",null,372,new cljs.core.Keyword(null,"p","p",151049309),new cljs.core.Keyword(null,"auto","auto",-566279492),(new cljs.core.Delay((function (){
 return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, ["Cannot find app on component!"], null);
-}),null)),null,209209803,null);
+}),null)),null,-1468039837,null);
 }
 };
 var G__57121 = function (var_args){
@@ -674,7 +674,7 @@ if(cljs.core.truth_(app__$1)){
 } else {
 taoensso.timbre._log_BANG_.cljs$core$IFn$_invoke$arity$11(taoensso.timbre._STAR_config_STAR_,new cljs.core.Keyword(null,"error","error",-978969032),"com.fulcrologic.fulcro.components",null,474,new cljs.core.Keyword(null,"p","p",151049309),new cljs.core.Keyword(null,"auto","auto",-566279492),(new cljs.core.Delay((function (){
 return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, ["Cannot create proper fulcro component, as *app* isn't bound.","This happens when something renders a Fulcro component outside of Fulcro's render context.","See `with-parent-context`.","See https://book.fulcrologic.com/#err-comp-app-not-bound"], null);
-}),null)),null,-261750683,null);
+}),null)),null,-1048683093,null);
 }
 
 var depth = (function (){var or__4253__auto__ = com.fulcrologic.fulcro.components._STAR_depth_STAR_;
@@ -819,14 +819,14 @@ return com.fulcrologic.fulcro.components.update_state_BANG_.cljs$core$IFn$_invok
 break;
 default:
 var args_arr__4885__auto__ = [];
-var len__4864__auto___57153 = arguments.length;
-var i__4865__auto___57154 = (0);
+var len__4864__auto___57156 = arguments.length;
+var i__4865__auto___57157 = (0);
 while(true){
-if((i__4865__auto___57154 < len__4864__auto___57153)){
-args_arr__4885__auto__.push((arguments[i__4865__auto___57154]));
+if((i__4865__auto___57157 < len__4864__auto___57156)){
+args_arr__4885__auto__.push((arguments[i__4865__auto___57157]));
 
-var G__57158 = (i__4865__auto___57154 + (1));
-i__4865__auto___57154 = G__57158;
+var G__57158 = (i__4865__auto___57157 + (1));
+i__4865__auto___57157 = G__57158;
 continue;
 } else {
 }
@@ -1232,28 +1232,28 @@ if(cljs.core.truth_(goog.DEBUG)){
 if((com.fulcrologic.fulcro.components._STAR_app_STAR_ == null)){
 taoensso.timbre._log_BANG_.cljs$core$IFn$_invoke$arity$11(taoensso.timbre._STAR_config_STAR_,new cljs.core.Keyword(null,"error","error",-978969032),"com.fulcrologic.fulcro.components",null,769,new cljs.core.Keyword(null,"p","p",151049309),new cljs.core.Keyword(null,"auto","auto",-566279492),(new cljs.core.Delay((function (){
 return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, ["A Fulcro component was rendered outside of a parent context. This probably means you are using a library that has you pass rendering code to it as a lambda. Use `with-parent-context` to fix this. See https://book.fulcrologic.com/#err-comp-rendered-outside-parent-ctx"], null);
-}),null)),null,1044563904,null);
+}),null)),null,-1978862097,null);
 } else {
 }
 
 if(((cljs.core.map_QMARK_(key__$1)) || (cljs.core.vector_QMARK_(key__$1)))){
 taoensso.timbre._log_BANG_.cljs$core$IFn$_invoke$arity$11(taoensso.timbre._STAR_config_STAR_,new cljs.core.Keyword(null,"warn","warn",-436710552),"com.fulcrologic.fulcro.components",null,771,new cljs.core.Keyword(null,"p","p",151049309),new cljs.core.Keyword(null,"auto","auto",-566279492),(new cljs.core.Delay((function (){
 return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, ["React key for ",(com.fulcrologic.fulcro.components.component_name.cljs$core$IFn$_invoke$arity$1 ? com.fulcrologic.fulcro.components.component_name.cljs$core$IFn$_invoke$arity$1(class$) : com.fulcrologic.fulcro.components.component_name.call(null,class$))," is not a simple scalar value. This could cause spurious component remounts. See https://book.fulcrologic.com/#warn-react-key-not-simple-scalar"], null);
-}),null)),null,1379818187,null);
+}),null)),null,650463249,null);
 } else {
 }
 
 if(typeof ref__$1 === 'string'){
 taoensso.timbre._log_BANG_.cljs$core$IFn$_invoke$arity$11(taoensso.timbre._STAR_config_STAR_,new cljs.core.Keyword(null,"warn","warn",-436710552),"com.fulcrologic.fulcro.components",null,774,new cljs.core.Keyword(null,"p","p",151049309),new cljs.core.Keyword(null,"auto","auto",-566279492),(new cljs.core.Delay((function (){
 return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, ["String ref on ",(com.fulcrologic.fulcro.components.component_name.cljs$core$IFn$_invoke$arity$1 ? com.fulcrologic.fulcro.components.component_name.cljs$core$IFn$_invoke$arity$1(class$) : com.fulcrologic.fulcro.components.component_name.call(null,class$))," should be a function. See https://book.fulcrologic.com/#warn-string-ref-not-function"], null);
-}),null)),null,1611447064,null);
+}),null)),null,-56139463,null);
 } else {
 }
 
 if((((props__$2 == null)) || (cljs.core.not(com.fulcrologic.fulcro.components.goog$module$goog$object.containsKey(props__$2,"fulcro$value"))))){
 taoensso.timbre._log_BANG_.cljs$core$IFn$_invoke$arity$11(taoensso.timbre._STAR_config_STAR_,new cljs.core.Keyword(null,"error","error",-978969032),"com.fulcrologic.fulcro.components",null,777,new cljs.core.Keyword(null,"p","p",151049309),new cljs.core.Keyword(null,"auto","auto",-566279492),(new cljs.core.Delay((function (){
 return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, ["Props middleware seems to have corrupted props for ",(com.fulcrologic.fulcro.components.component_name.cljs$core$IFn$_invoke$arity$1 ? com.fulcrologic.fulcro.components.component_name.cljs$core$IFn$_invoke$arity$1(class$) : com.fulcrologic.fulcro.components.component_name.call(null,class$)),"See https://book.fulcrologic.com/#err-comp-props-middleware-corrupts"], null);
-}),null)),null,-443847719,null);
+}),null)),null,1612382520,null);
 } else {
 }
 
@@ -1261,7 +1261,7 @@ if(cljs.core.truth_(cljs.core.fnil.cljs$core$IFn$_invoke$arity$2(cljs.core.map_Q
 } else {
 taoensso.timbre._log_BANG_.cljs$core$IFn$_invoke$arity$11(taoensso.timbre._STAR_config_STAR_,new cljs.core.Keyword(null,"error","error",-978969032),"com.fulcrologic.fulcro.components",null,780,new cljs.core.Keyword(null,"p","p",151049309),new cljs.core.Keyword(null,"auto","auto",-566279492),(new cljs.core.Delay((function (){
 return new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, ["Props passed to",(com.fulcrologic.fulcro.components.component_name.cljs$core$IFn$_invoke$arity$1 ? com.fulcrologic.fulcro.components.component_name.cljs$core$IFn$_invoke$arity$1(class$) : com.fulcrologic.fulcro.components.component_name.call(null,class$)),"are of the type",cljs.core.type__GT_str(cljs.core.type(com.fulcrologic.fulcro.components.goog$module$goog$object.get(props__$2,"fulcro$value"))),"instead of a map. Perhaps you meant to `map` the component over the props? See https://book.fulcrologic.com/#err-comp-props-not-a-map"], null);
-}),null)),null,1624559212,null);
+}),null)),null,-2125302259,null);
 }
 } else {
 }
@@ -1271,15 +1271,15 @@ return com.fulcrologic.fulcro.components.create_element(class$,props__$2,childre
 var com$fulcrologic$fulcro$components$element_factory = function (props,var_args){
 var children = null;
 if (arguments.length > 1) {
-var G__57190__i = 0, G__57190__a = new Array(arguments.length -  1);
-while (G__57190__i < G__57190__a.length) {G__57190__a[G__57190__i] = arguments[G__57190__i + 1]; ++G__57190__i;}
-  children = new cljs.core.IndexedSeq(G__57190__a,0,null);
+var G__57192__i = 0, G__57192__a = new Array(arguments.length -  1);
+while (G__57192__i < G__57192__a.length) {G__57192__a[G__57192__i] = arguments[G__57192__i + 1]; ++G__57192__i;}
+  children = new cljs.core.IndexedSeq(G__57192__a,0,null);
 } 
 return com$fulcrologic$fulcro$components$element_factory__delegate.call(this,props,children);};
 com$fulcrologic$fulcro$components$element_factory.cljs$lang$maxFixedArity = 1;
-com$fulcrologic$fulcro$components$element_factory.cljs$lang$applyTo = (function (arglist__57191){
-var props = cljs.core.first(arglist__57191);
-var children = cljs.core.rest(arglist__57191);
+com$fulcrologic$fulcro$components$element_factory.cljs$lang$applyTo = (function (arglist__57193){
+var props = cljs.core.first(arglist__57193);
+var children = cljs.core.rest(arglist__57193);
 return com$fulcrologic$fulcro$components$element_factory__delegate(props,children);
 });
 com$fulcrologic$fulcro$components$element_factory.cljs$core$IFn$_invoke$arity$variadic = com$fulcrologic$fulcro$components$element_factory__delegate;
@@ -1319,15 +1319,15 @@ return com.fulcrologic.fulcro.components.computed_factory.cljs$core$IFn$_invoke$
 (com.fulcrologic.fulcro.components.computed_factory.cljs$core$IFn$_invoke$arity$2 = (function (class$,options){
 var real_factory = com.fulcrologic.fulcro.components.factory.cljs$core$IFn$_invoke$arity$2(class$,options);
 return cljs.core.with_meta((function() {
-var G__57195 = null;
-var G__57195__1 = (function (props){
+var G__57196 = null;
+var G__57196__1 = (function (props){
 return (real_factory.cljs$core$IFn$_invoke$arity$1 ? real_factory.cljs$core$IFn$_invoke$arity$1(props) : real_factory.call(null,props));
 });
-var G__57195__2 = (function (props,computed_props){
+var G__57196__2 = (function (props,computed_props){
 var G__57043 = (com.fulcrologic.fulcro.components.computed.cljs$core$IFn$_invoke$arity$2 ? com.fulcrologic.fulcro.components.computed.cljs$core$IFn$_invoke$arity$2(props,computed_props) : com.fulcrologic.fulcro.components.computed.call(null,props,computed_props));
 return (real_factory.cljs$core$IFn$_invoke$arity$1 ? real_factory.cljs$core$IFn$_invoke$arity$1(G__57043) : real_factory.call(null,G__57043));
 });
-var G__57195__3 = (function() { 
+var G__57196__3 = (function() { 
 var G__57197__delegate = function (props,computed_props,children){
 return cljs.core.apply.cljs$core$IFn$_invoke$arity$3(real_factory,(com.fulcrologic.fulcro.components.computed.cljs$core$IFn$_invoke$arity$2 ? com.fulcrologic.fulcro.components.computed.cljs$core$IFn$_invoke$arity$2(props,computed_props) : com.fulcrologic.fulcro.components.computed.call(null,props,computed_props)),children);
 };
@@ -1351,13 +1351,13 @@ G__57197.cljs$core$IFn$_invoke$arity$variadic = G__57197__delegate;
 return G__57197;
 })()
 ;
-G__57195 = function(props,computed_props,var_args){
+G__57196 = function(props,computed_props,var_args){
 var children = var_args;
 switch(arguments.length){
 case 1:
-return G__57195__1.call(this,props);
+return G__57196__1.call(this,props);
 case 2:
-return G__57195__2.call(this,props,computed_props);
+return G__57196__2.call(this,props,computed_props);
 default:
 var G__57200 = null;
 if (arguments.length > 2) {
@@ -1365,16 +1365,16 @@ var G__57201__i = 0, G__57201__a = new Array(arguments.length -  2);
 while (G__57201__i < G__57201__a.length) {G__57201__a[G__57201__i] = arguments[G__57201__i + 2]; ++G__57201__i;}
 G__57200 = new cljs.core.IndexedSeq(G__57201__a,0,null);
 }
-return G__57195__3.cljs$core$IFn$_invoke$arity$variadic(props,computed_props, G__57200);
+return G__57196__3.cljs$core$IFn$_invoke$arity$variadic(props,computed_props, G__57200);
 }
 throw(new Error('Invalid arity: ' + arguments.length));
 };
-G__57195.cljs$lang$maxFixedArity = 2;
-G__57195.cljs$lang$applyTo = G__57195__3.cljs$lang$applyTo;
-G__57195.cljs$core$IFn$_invoke$arity$1 = G__57195__1;
-G__57195.cljs$core$IFn$_invoke$arity$2 = G__57195__2;
-G__57195.cljs$core$IFn$_invoke$arity$variadic = G__57195__3.cljs$core$IFn$_invoke$arity$variadic;
-return G__57195;
+G__57196.cljs$lang$maxFixedArity = 2;
+G__57196.cljs$lang$applyTo = G__57196__3.cljs$lang$applyTo;
+G__57196.cljs$core$IFn$_invoke$arity$1 = G__57196__1;
+G__57196.cljs$core$IFn$_invoke$arity$2 = G__57196__2;
+G__57196.cljs$core$IFn$_invoke$arity$variadic = G__57196__3.cljs$core$IFn$_invoke$arity$variadic;
+return G__57196;
 })()
 ,cljs.core.meta(real_factory));
 }));
@@ -1746,14 +1746,14 @@ return (handler.cljs$core$IFn$_invoke$arity$2 ? handler.cljs$core$IFn$_invoke$ar
  */
 com.fulcrologic.fulcro.components.fragment = (function com$fulcrologic$fulcro$components$fragment(var_args){
 var args__4870__auto__ = [];
-var len__4864__auto___57214 = arguments.length;
-var i__4865__auto___57215 = (0);
+var len__4864__auto___57209 = arguments.length;
+var i__4865__auto___57210 = (0);
 while(true){
-if((i__4865__auto___57215 < len__4864__auto___57214)){
-args__4870__auto__.push((arguments[i__4865__auto___57215]));
+if((i__4865__auto___57210 < len__4864__auto___57209)){
+args__4870__auto__.push((arguments[i__4865__auto___57210]));
 
-var G__57216 = (i__4865__auto___57215 + (1));
-i__4865__auto___57215 = G__57216;
+var G__57211 = (i__4865__auto___57210 + (1));
+i__4865__auto___57210 = G__57211;
 continue;
 } else {
 }
@@ -1893,7 +1893,7 @@ return com.fulcrologic.fulcro.components.tunnel_props_BANG_(component,ui_props);
 }} else {
 return taoensso.timbre._log_BANG_.cljs$core$IFn$_invoke$arity$11(taoensso.timbre._STAR_config_STAR_,new cljs.core.Keyword(null,"error","error",-978969032),"com.fulcrologic.fulcro.components",null,1518,new cljs.core.Keyword(null,"p","p",151049309),new cljs.core.Keyword(null,"auto","auto",-566279492),(new cljs.core.Delay((function (){
 return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, ["Cannot re-render a non-component. See https://book.fulcrologic.com/#err-comp-cannot-rerender-non-comp"], null);
-}),null)),null,-2134487312,null);
+}),null)),null,1026264840,null);
 }
 });
 /**
@@ -1937,10 +1937,10 @@ return cljs.core.pos_int_QMARK_(level);
 return and__4251__auto__;
 }
 })())){
-var G__57222 = result;
-var G__57223 = (level - (1));
-element = G__57222;
-level = G__57223;
+var G__57217 = result;
+var G__57218 = (level - (1));
+element = G__57217;
+level = G__57218;
 continue;
 } else {
 return result;

@@ -43,10 +43,10 @@ var sel__$1 = ((recursive_QMARK_)?(((!((union_seen == null))))?union_seen:query)
 var class$ = new cljs.core.Keyword(null,"component","component",1555936782).cljs$core$IFn$_invoke$arity$1(cljs.core.meta(sel__$1));
 var v = cljs.core.get.cljs$core$IFn$_invoke$arity$2(data__$1,k);
 if(((recursive_QMARK_) && (edn_query_language.core.ident_QMARK_(v)))){
-var G__57282 = cljs.core.next(q);
-var G__57283 = ret;
-q = G__57282;
-ret = G__57283;
+var G__57279 = cljs.core.next(q);
+var G__57280 = ret;
+q = G__57279;
+ret = G__57280;
 continue;
 } else {
 if(cljs.core.map_QMARK_(v)){
@@ -55,16 +55,16 @@ if((!((((class$ == null)) || ((!(com.fulcrologic.fulcro.components.has_ident_QMA
 var i = (com.fulcrologic.fulcro.components.get_ident.cljs$core$IFn$_invoke$arity$2 ? com.fulcrologic.fulcro.components.get_ident.cljs$core$IFn$_invoke$arity$2(class$,x) : com.fulcrologic.fulcro.components.get_ident.call(null,class$,x));
 cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$variadic(refs,cljs.core.update_in,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.first(i),cljs.core.second(i)], null),cljs.core.merge,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([x], 0));
 
-var G__57284 = cljs.core.next(q);
-var G__57285 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(ret,k,i);
-q = G__57284;
-ret = G__57285;
+var G__57281 = cljs.core.next(q);
+var G__57282 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(ret,k,i);
+q = G__57281;
+ret = G__57282;
 continue;
 } else {
-var G__57286 = cljs.core.next(q);
-var G__57287 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(ret,k,x);
-q = G__57286;
-ret = G__57287;
+var G__57283 = cljs.core.next(q);
+var G__57284 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(ret,k,x);
+q = G__57283;
+ret = G__57284;
 continue;
 }
 } else {
@@ -86,10 +86,10 @@ if(cljs.core.empty_QMARK_(is)){
 cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(refs,((function (q,ret,is,xs,vec__57266,k,sel,recursive_QMARK_,union_entry,sel__$1,class$,v,expr,data__$1){
 return (function (refs__$1){
 return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3(((function (q,ret,is,xs,vec__57266,k,sel,recursive_QMARK_,union_entry,sel__$1,class$,v,expr,data__$1){
-return (function (m,p__57271){
-var vec__57272 = p__57271;
-var i = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__57272,(0),null);
-var x = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__57272,(1),null);
+return (function (m,p__57269){
+var vec__57270 = p__57269;
+var i = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__57270,(0),null);
+var x = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__57270,(1),null);
 return cljs.core.update_in.cljs$core$IFn$_invoke$arity$4(m,i,cljs.core.merge,x);
 });})(q,ret,is,xs,vec__57266,k,sel,recursive_QMARK_,union_entry,sel__$1,class$,v,expr,data__$1))
 ,refs__$1,cljs.core.zipmap(is,xs));
@@ -100,10 +100,10 @@ return cljs.core.update_in.cljs$core$IFn$_invoke$arity$4(m,i,cljs.core.merge,x);
 cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(refs,((function (q,ret,is,xs,vec__57266,k,sel,recursive_QMARK_,union_entry,sel__$1,class$,v,expr,data__$1){
 return (function (refs_SINGLEQUOTE_){
 return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3(((function (q,ret,is,xs,vec__57266,k,sel,recursive_QMARK_,union_entry,sel__$1,class$,v,expr,data__$1){
-return (function (ret__$1,p__57275){
-var vec__57276 = p__57275;
-var i = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__57276,(0),null);
-var x = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__57276,(1),null);
+return (function (ret__$1,p__57273){
+var vec__57274 = p__57273;
+var i = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__57274,(0),null);
+var x = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__57274,(1),null);
 return cljs.core.update_in.cljs$core$IFn$_invoke$arity$4(ret__$1,i,cljs.core.merge,x);
 });})(q,ret,is,xs,vec__57266,k,sel,recursive_QMARK_,union_entry,sel__$1,class$,v,expr,data__$1))
 ,refs_SINGLEQUOTE_,cljs.core.map.cljs$core$IFn$_invoke$arity$3(cljs.core.vector,is,xs));
@@ -111,30 +111,30 @@ return cljs.core.update_in.cljs$core$IFn$_invoke$arity$4(ret__$1,i,cljs.core.mer
 );
 }
 
-var G__57288 = cljs.core.next(q);
-var G__57289 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(ret,k,is);
-q = G__57288;
-ret = G__57289;
+var G__57287 = cljs.core.next(q);
+var G__57288 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(ret,k,is);
+q = G__57287;
+ret = G__57288;
 continue;
 } else {
-var G__57290 = cljs.core.next(q);
-var G__57291 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(ret,k,xs);
-q = G__57290;
-ret = G__57291;
+var G__57289 = cljs.core.next(q);
+var G__57290 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(ret,k,xs);
+q = G__57289;
+ret = G__57290;
 continue;
 }
 } else {
 if((v == null)){
-var G__57292 = cljs.core.next(q);
-var G__57293 = ret;
-q = G__57292;
-ret = G__57293;
+var G__57291 = cljs.core.next(q);
+var G__57292 = ret;
+q = G__57291;
+ret = G__57292;
 continue;
 } else {
-var G__57294 = cljs.core.next(q);
-var G__57295 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(ret,k,v);
-q = G__57294;
-ret = G__57295;
+var G__57293 = cljs.core.next(q);
+var G__57294 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(ret,k,v);
+q = G__57293;
+ret = G__57294;
 continue;
 
 }
@@ -145,16 +145,16 @@ continue;
 var k = ((cljs.core.seq_QMARK_(expr))?cljs.core.first(expr):expr);
 var v = cljs.core.get.cljs$core$IFn$_invoke$arity$2(data__$1,k);
 if((v == null)){
-var G__57296 = cljs.core.next(q);
-var G__57297 = ret;
-q = G__57296;
-ret = G__57297;
+var G__57295 = cljs.core.next(q);
+var G__57296 = ret;
+q = G__57295;
+ret = G__57296;
 continue;
 } else {
-var G__57298 = cljs.core.next(q);
-var G__57299 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(ret,k,v);
-q = G__57298;
-ret = G__57299;
+var G__57297 = cljs.core.next(q);
+var G__57298 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(ret,k,v);
+q = G__57297;
+ret = G__57298;
 continue;
 }
 }
@@ -176,8 +176,8 @@ break;
  * option is true, will return these tables in the result instead of as metadata.
  */
 com.fulcrologic.fulcro.algorithms.normalize.tree__GT_db = (function com$fulcrologic$fulcro$algorithms$normalize$tree__GT_db(var_args){
-var G__57280 = arguments.length;
-switch (G__57280) {
+var G__57278 = arguments.length;
+switch (G__57278) {
 case 2:
 return com.fulcrologic.fulcro.algorithms.normalize.tree__GT_db.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 

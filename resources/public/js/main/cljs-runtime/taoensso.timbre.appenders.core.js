@@ -7,14 +7,14 @@ goog.provide('taoensso.timbre.appenders.core');
  */
 taoensso.timbre.appenders.core.println_appender = (function taoensso$timbre$appenders$core$println_appender(var_args){
 var args__4870__auto__ = [];
-var len__4864__auto___48249 = arguments.length;
-var i__4865__auto___48251 = (0);
+var len__4864__auto___48247 = arguments.length;
+var i__4865__auto___48248 = (0);
 while(true){
-if((i__4865__auto___48251 < len__4864__auto___48249)){
-args__4870__auto__.push((arguments[i__4865__auto___48251]));
+if((i__4865__auto___48248 < len__4864__auto___48247)){
+args__4870__auto__.push((arguments[i__4865__auto___48248]));
 
-var G__48253 = (i__4865__auto___48251 + (1));
-i__4865__auto___48251 = G__48253;
+var G__48249 = (i__4865__auto___48248 + (1));
+i__4865__auto___48248 = G__48249;
 continue;
 } else {
 }
@@ -63,14 +63,14 @@ return self__4852__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq
  */
 taoensso.timbre.appenders.core.console_appender = (function taoensso$timbre$appenders$core$console_appender(var_args){
 var args__4870__auto__ = [];
-var len__4864__auto___48258 = arguments.length;
-var i__4865__auto___48259 = (0);
+var len__4864__auto___48250 = arguments.length;
+var i__4865__auto___48251 = (0);
 while(true){
-if((i__4865__auto___48259 < len__4864__auto___48258)){
-args__4870__auto__.push((arguments[i__4865__auto___48259]));
+if((i__4865__auto___48251 < len__4864__auto___48250)){
+args__4870__auto__.push((arguments[i__4865__auto___48251]));
 
-var G__48260 = (i__4865__auto___48259 + (1));
-i__4865__auto___48259 = G__48260;
+var G__48252 = (i__4865__auto___48251 + (1));
+i__4865__auto___48251 = G__48252;
 continue;
 } else {
 }

@@ -23,12 +23,12 @@ var or__4253__auto__ = document.getElementById(id);
 if(cljs.core.truth_(or__4253__auto__)){
 return or__4253__auto__;
 } else {
-var G__57213 = document.createElement("div");
-com.fulcrologic.fulcro.inspect.element_picker.goog$module$goog$object.set(G__57213,"id",id);
+var G__57221 = document.createElement("div");
+com.fulcrologic.fulcro.inspect.element_picker.goog$module$goog$object.set(G__57221,"id",id);
 
-goog.dom.appendChild(document.body,G__57213);
+goog.dom.appendChild(document.body,G__57221);
 
-return G__57213;
+return G__57221;
 }
 });
 com.fulcrologic.fulcro.inspect.element_picker.marker_label_element = (function com$fulcrologic$fulcro$inspect$element_picker$marker_label_element(){
@@ -37,17 +37,17 @@ var or__4253__auto__ = document.getElementById(id);
 if(cljs.core.truth_(or__4253__auto__)){
 return or__4253__auto__;
 } else {
-var G__57218 = document.createElement("div");
-com.fulcrologic.fulcro.inspect.element_picker.goog$module$goog$object.set(G__57218,"id",id);
+var G__57222 = document.createElement("div");
+com.fulcrologic.fulcro.inspect.element_picker.goog$module$goog$object.set(G__57222,"id",id);
 
-goog.dom.appendChild(document.body,G__57218);
+goog.dom.appendChild(document.body,G__57222);
 
-return G__57218;
+return G__57222;
 }
 });
 com.fulcrologic.fulcro.inspect.element_picker.react_raw_instance = (function com$fulcrologic$fulcro$inspect$element_picker$react_raw_instance(node){
-var temp__5751__auto__ = cljs.core.first(cljs.core.filter.cljs$core$IFn$_invoke$arity$2((function (p1__57220_SHARP_){
-return ((clojure.string.starts_with_QMARK_(p1__57220_SHARP_,"__reactInternalInstance$")) || (clojure.string.starts_with_QMARK_(p1__57220_SHARP_,"__reactFiber$")));
+var temp__5751__auto__ = cljs.core.first(cljs.core.filter.cljs$core$IFn$_invoke$arity$2((function (p1__57223_SHARP_){
+return ((clojure.string.starts_with_QMARK_(p1__57223_SHARP_,"__reactInternalInstance$")) || (clojure.string.starts_with_QMARK_(p1__57223_SHARP_,"__reactFiber$")));
 }),com.fulcrologic.fulcro.inspect.element_picker.goog$module$goog$object.getKeys(node)));
 if(cljs.core.truth_(temp__5751__auto__)){
 var instance_key = temp__5751__auto__;
@@ -179,7 +179,7 @@ return null;
 com.fulcrologic.fulcro.inspect.element_picker.install_BANG_ = (function com$fulcrologic$fulcro$inspect$element_picker$install_BANG_(){
 taoensso.timbre._log_BANG_.cljs$core$IFn$_invoke$arity$11(taoensso.timbre._STAR_config_STAR_,new cljs.core.Keyword(null,"info","info",-317069002),"com.fulcrologic.fulcro.inspect.element-picker",null,159,new cljs.core.Keyword(null,"p","p",151049309),new cljs.core.Keyword(null,"auto","auto",-566279492),(new cljs.core.Delay((function (){
 return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, ["Installing Inspect Element Picker"], null);
-}),null)),null,1603173825,null);
+}),null)),null,-769808491,null);
 
 cljs.core.reset_BANG_(com.fulcrologic.fulcro.inspect.inspect_client.run_picker,(function (data){
 var map__57234 = data;

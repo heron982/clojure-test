@@ -22,8 +22,8 @@ return cljs.core.get.cljs$core$IFn$_invoke$arity$3(cljs.core.deref(com.fulcrolog
  *   - `opts`: (optional) options to pass to `cognitect.transit/writer` (such as handlers).
  */
 com.fulcrologic.fulcro.algorithms.transit.writer = (function com$fulcrologic$fulcro$algorithms$transit$writer(var_args){
-var G__55483 = arguments.length;
-switch (G__55483) {
+var G__55486 = arguments.length;
+switch (G__55486) {
 case 0:
 return com.fulcrologic.fulcro.algorithms.transit.writer.cljs$core$IFn$_invoke$arity$0();
 

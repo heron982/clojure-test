@@ -1,8 +1,8 @@
 {
-  "name": "buzzlabs-felipehorizonte-test",
+  "name": "clojure-test",
   "version": "1.0.0",
-  "description": "Repositório para o teste de aplicação.",
-  "main": "",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,6 +19,6 @@
   "dependencies": {
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
-    "shadow-cljs": "^2.19.1"
+    "shadow-cljs": "^2.19.3"
   }
 }
