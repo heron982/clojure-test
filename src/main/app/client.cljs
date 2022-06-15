@@ -1,22 +1,18 @@
 (ns app.client
     (:require
-      [com.fulcrologic.fulcro.application :as app]
-      [com.fulcrologic.fulcro.components :as comp :refer [defsc]]
-      [com.fulcrologic.fulcro.dom :as dom]))
-
-(defonce app (app/fulcro-app))
-
-(defsc Root [this props]
-  (dom/div "Hello World"))
+      [app.application :refer [app]]
+      [app.ui :as ui]
+      [com.fulcrologic.fulcro.components :as comp]
+      [com.fulcrologic.fulcro.application :as app]))
 
 (defn ^:export init
       []
-      (app/mount! app Root "app")
+      (app/mount! app ui/Root "app")
       (js/console.log "Loaded"))
 
 (defn ^:export refresh
   []
-  (app/mount! app Root "app")
+  (app/mount! app ui/Root "app")
   (comp/refresh-dynamic-queries! app)
   (js/console.log "Hot Reload"))
 

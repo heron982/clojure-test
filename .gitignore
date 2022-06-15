@@ -3,3 +3,7 @@
 .lsp
 .shadow-cljs
 node_modules
+resources/public/js/main/*
+resources/public/js/main/main.js
+resources/public/js/main/cljs-runtime/
+
