@@ -6,14 +6,15 @@
     [taoensso.timbre :as log]
     [com.fulcrologic.fulcro.data-fetch :as df]
     [com.fulcrologic.fulcro.mutations :as m]
-    [app.pages.home :refer [HomePage]]))
+    [app.pages.home :refer [HomePage]]
+    [app.pages.login :refer [LoginPage]]))
 
 (defrouter TopRouter [this {:keys [current-state pending-path-segment]}]
-  {:router-targets [HomePage]}
+  {:router-targets [HomePage LoginPage]}
   (case current-state
-    :pending (dom/div "Loading...")
-    :failed (dom/div "Loading seems to have failed. Try another route.")
-    (dom/div "Unknown route")))
+    :pending (dom/div "Carregando...")
+    :failed (dom/div "Falha ao carregar a rota")
+    (dom/div "Rota invalida")))
 
 (def ui-top-router (comp/factory TopRouter))
     
@@ -22,5 +23,6 @@
     :initial-state {:root/router {}}}
   (dom/div
     (dom/button {:onClick #(dr/change-route this ["homepage"])} "Pagina principal")
+    (dom/button {:onClick #(dr/change-route this ["loginpage"])} "Pagina de login")
     (ui-top-router router)))
     
