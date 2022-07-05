@@ -7,7 +7,8 @@
     [com.fulcrologic.fulcro.data-fetch :as df]
     [com.fulcrologic.fulcro.mutations :as m]
     [app.pages.home :refer [HomePage]]
-    [app.pages.login :refer [LoginPage]]))
+    [app.pages.login :refer [LoginPage]]
+    [app.components.header :refer [HeaderComponent]]))
 
 (defrouter TopRouter [this {:keys [current-state pending-path-segment]}]
   {:router-targets [HomePage LoginPage]}
@@ -22,7 +23,6 @@
   {:query         [{:root/router (comp/get-query TopRouter)}]
     :initial-state {:root/router {}}}
   (dom/div
-    (dom/button {:onClick #(dr/change-route this ["homepage"])} "Pagina principal")
-    (dom/button {:onClick #(dr/change-route this ["loginpage"])} "Pagina de login")
+    (HeaderComponent this)
     (ui-top-router router)))
     
