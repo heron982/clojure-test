@@ -16,4 +16,4 @@
         :will-leave    (fn [this props]
                         (js/console.log (comp/get-ident this) "props" props)
                         true)}
-    (dom/div "HomePage"))
+    (dom/div "Pagina Principal"))
